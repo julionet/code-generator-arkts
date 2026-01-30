@@ -1,0 +1,14 @@
+# requirements.txt
+
+# Core
+aiohttp>=3.9.0
+aiofiles>=23.2.0
+
+# CLI
+argparse
+
+# Type hints
+typing-extensions>=4.8.0
+
+# Data classes (Python 3.7+)
+dataclasses; python_version < '3.7'
